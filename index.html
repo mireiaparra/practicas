@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, papel, tijera</title>
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   <header>
+<h1>Piedra, papel, tijera</h1>
+   </header>
+
+   <!-- botones y modales -->
+   <div class = 'elecciones'>
+   <button id='rockButton' class='datos'><img src="icons8-rock-100 .png"></button>
+   <div class='modal'>
+     <div class='modal-content'>
+       <span class='close'>&times;</span>
+     </div>
+   </div>
+   <button id='paperButton' class='datos'><img src="icons8-paper-100.png"></button>
+   <div class='modal'>
+     <div class='modal-content'>
+       <span class='close'>&times;</span>
+     </div>
+   </div>
+   <button id='scissorsButton' class='datos'><img src="icons8-scissors-100.png"></button>
+   <div class='modal'>
+    <div class='modal-content'>
+      <span class='close'>&times;</span>
+    </div>
+  </div>
+</div>
+
+<!-- tabla de puntos -->
+
+<div class="score-board">
+    <div id="user-points" class="points">Jugador</div>
+    <div id="cpu-points" class="points">Ordenador</div>
+  </div>
+
+
+<!-- botón restart -->
+<div class="button-container">
+    <button id = "restartbutton" class = "restart-button"> Reiniciar puntuación </button> 
+</div>
+
+
+  
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
